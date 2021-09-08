@@ -8,6 +8,10 @@
 		body {
 			background-color: #000;
 			margin: 0;
+			white-space: nowrap;
+			overflow: hidden;
+			max-width: 100%;
+			max-height: 100%;
 		}
 		.page {
 			color: #fff;
@@ -16,8 +20,6 @@
 			font-weight: 900;
 			padding: 4rem;
 			padding-top: 6rem;
-			min-width: 1920px;
-			min-height: 1080px;
 		}
 		.small-line {
 			font-size: 7rem;
@@ -29,26 +31,35 @@
 			transform: scale(1,1.5);
 			line-height: 1.2;
 		}
-		.episode {
+		.error {
 			margin-top: 4rem;
 			margin-bottom: .7rem;
 			font-size: 3.6rem;
-			font-family: Helvetica Neue,Helvetica,sans-serif;
+			font-family: Helvetica;
 			transform: scale(1,1.5);
+			font-weight: 600;
 		}
 		.title {
+			margin-top: 2rem;
 			font-size: 6rem;
+			font-family: Helvetica;
+			transform: scale(1,1.5);
+			font-weight: 600;
 			line-height: .9;
+			float: right;
+		}
+		@media () {
+
 		}
 	</style>
 </head>
 <body>
-<div class="page">
-	<div class="small-line">oops</div>
-	<div class="small-line">something</div>
-	<div class="large-line">went wrong</div>
-	<div class="episode">error:404</div>
-	<div class="title">take me back</div>
-</div>
+	<div class="page">
+		<div class="small-line">oops</div>
+		<div class="small-line">something</div>
+		<div class="large-line">went wrong</div>
+		<div class="error">error:404</div>
+		<div class="title">take me back</div>
+	</div>
 </body>
 </html>
