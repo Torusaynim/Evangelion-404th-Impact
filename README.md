@@ -11,8 +11,8 @@ Simple Evangelion themed "404 Not Found" page, you can try it [**here**](https:/
 
 1. Download the code and rename the page to something different, **404.html** for example
 2. Put this page wherever you like in your server directory
-3. Create **.htaccess** in the root directory of your server and edit it by adding the following line `ErrorDocument 404 /404.html` where everything after `/` is the full path to your custom 404 page inside server directory
-4. Save everything and try to open page that don't exist to test it
+3. Create **.htaccess** in the root directory of your server (if you don't have it) and then edit it by adding the following line `ErrorDocument 404 /404.html` where everything after `/` is the full path to your custom 404 page inside server directory
+4. Save everything and try to open a page that doesn't exist to test it
 5. You're done, enjoy your custom 404 page!
 
 ## Special thanks
