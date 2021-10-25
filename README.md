@@ -19,5 +19,3 @@ Simple Evangelion themed "404 Not Found" page, you can try it [**here**](https:/
 
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=egoist&repo=evangelion-card&theme=graywhite)](https://github.com/egoist/evangelion-card)
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=khaledkzy&repo=pixel-vh-vw-converter&theme=graywhite)](https://github.com/khaledkzy/pixel-vh-vw-converter)
-
-These repositories helped me a lot with making this page and adapting it for different devices
